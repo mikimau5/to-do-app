@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: arial;
+  font-size: 24px;
+}
+
+.App h1,
+h3 {
+  margin: 20px;
+}
+
+.form input {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.App button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 10px 2px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.App button:hover {
+  background-color: black;
+  color: white;
+}
+
+.task i {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.task i.add:hover {
+  color: green;
+}
+
+.task i.remove:hover {
+  color: red;
+}
